@@ -16,6 +16,7 @@ namespace BasicMathTests
         [TestCase(1, -1, ExpectedResult = 0)]
         [TestCase(5, 0, ExpectedResult = 5)]
         [TestCase(-5, -5, ExpectedResult = -10)]
+        [TestCase(0, 0, ExpectedResult = 0)]
         public int AdditionTests(int value1, int value2)
         {
             return Operation.Addition(value1, value2);
